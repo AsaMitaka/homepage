@@ -263,3 +263,22 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.image__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image__block-header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.image__block-img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+}
